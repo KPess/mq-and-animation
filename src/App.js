@@ -25,7 +25,6 @@ class App extends React.Component {
           <ul>
             <div>
               <li className="nav-title">Start Bootstrap</li>
-
             </div>
             <li className="menu-text">Services</li>
             <li className="menu-text">Portfolio</li>
@@ -41,19 +40,14 @@ class App extends React.Component {
                 />
               </button>
             </li>
-            <div className={this.state.menuStatus}>
-            <div className="bork">
-                <ul>
-                <button className="drop-down-button">Services</button>
-                <button className="drop-down-button">Portfolio</button>
-                <button className="drop-down-button">About</button>
-                <button className="drop-down-button">Team</button>
-                <button className="drop-down-button">Contact</button>
-                </ul>
-              </div>
-
-            </div>
           </ul>
+          <div className={this.state.menuStatus}>
+            <button className="drop-down-button">SERVICES</button>
+            <button className="drop-down-button">PORTFOLIO</button>
+            <button className="drop-down-button">ABOUT</button>
+            <button className="drop-down-button">TEAM</button>
+            <button className="drop-down-button">CONTACT</button>
+          </div>
         </nav>
         <header className="header">
           <h2 className="welcome">Welcome To Our Studio!</h2>
